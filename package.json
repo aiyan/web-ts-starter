@@ -1,0 +1,22 @@
+{
+  "name": "web-ts-starter",
+  "version": "0.0.0",
+  "private": true,
+  "prettier": "@aiyan/prettier-config",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint:fix": "eslint --fix . && prettier --write ."
+  },
+  "devDependencies": {
+    "@aiyan/prettier-config": "^1.0.2",
+    "@typescript-eslint/eslint-plugin": "^5.12.0",
+    "@typescript-eslint/parser": "^5.12.0",
+    "eslint": "^8.9.0",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.7",
+    "typescript": "^4.5.5",
+    "vite": "^2.8.3"
+  }
+}
